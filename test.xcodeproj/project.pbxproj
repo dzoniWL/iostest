@@ -15,6 +15,7 @@
 		BC7B3896237EE906008B935E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7B3894237EE906008B935E /* LaunchScreen.storyboard */; };
 		BC7B38A1237EE906008B935E /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7B38A0237EE906008B935E /* testTests.swift */; };
 		BC7B38AC237EE906008B935E /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7B38AB237EE906008B935E /* testUITests.swift */; };
+		BC7B38BA237EE92D008B935E /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC7B38B9237EE92D008B935E /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BC7B38A7237EE906008B935E /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7B38AB237EE906008B935E /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
 		BC7B38AD237EE906008B935E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC7B38B9237EE92D008B935E /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		BC7B387D237EE905008B935E = {
 			isa = PBXGroup;
 			children = (
+				BC7B38B9237EE92D008B935E /* View.xib */,
 				BC7B3888237EE905008B935E /* test */,
 				BC7B389F237EE906008B935E /* testTests */,
 				BC7B38AA237EE906008B935E /* testUITests */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC7B38BA237EE92D008B935E /* View.xib in Resources */,
 				BC7B3896237EE906008B935E /* LaunchScreen.storyboard in Resources */,
 				BC7B3893237EE906008B935E /* Assets.xcassets in Resources */,
 				BC7B3891237EE905008B935E /* Main.storyboard in Resources */,
